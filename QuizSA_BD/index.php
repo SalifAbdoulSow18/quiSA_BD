@@ -9,19 +9,28 @@
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-	<div class="contenaire-fluid haut">
-		<img src="./images/question.png">
-		<h1>QUIZ SAS</h1>
-		<img src="./images/question.png" class="logo">
+	<div class="container-fluid">						
+		<div class="row haut">
+    		<div class="col h-100 ques">
+     			<img src="./images/question.png" style="float: left;">
+    		</div>
+    			<div class="col-6">
+      				<h1 class="mt-3">QUIZ SAS</h1>
+    			</div>
+    				<div class="col h-100 ques">
+      					<img style="float: right;" src="./images/question.png">
+    				</div>
+		</div>
+			<div class="row conteneur">
+				<?php
+					require_once("./Traitement/connexion.php");
+				?>
+			</div>
+				<div class="row foot">
+					<h5>@Copyright SAS 2020</h5>
+				</div>
 	</div>
-	<div class="conteneur">
-	<?php
-      	require_once("./Traitement/connexion.php");
-	?>
-	</div>
-	<div class="contenaire-fluid haut1">		
-		<h5>@Copyright SAS 2020</h5>
-	</div>
+	
 	
 </body>
 </html>
