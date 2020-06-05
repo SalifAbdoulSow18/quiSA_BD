@@ -7,12 +7,11 @@ body{
 	padding: 0;
 	margin: 0;
 }
+/*Pour la page index voire toutes les pages!!!*/
 .haut{
 	background-color: #505050;
 	height: 100px;
 	text-align: center;
-}
-.haut h1{
 	color: white;
 }
 .ques img{
@@ -30,10 +29,7 @@ body{
 	height: 30px;
 	text-align: center;
 }
-.foot h5{
-	position: relative;
-	left: 40%;
-}
+/*Pour la page de connexion!!!*/
 .contenaire{
 	height: 80%;
 	background-color: #F3E4D3;
@@ -43,8 +39,6 @@ body{
 .first{
 	background:#BA6502;
 	height: 10%;
-}
-.first h4{
 	color: white;
 }
 #formulaire{
@@ -71,7 +65,6 @@ body{
 	width: 40%;
     height: 60px;
     margin-left: 25%;
-	border-radius: 0px 5px 5px 0px;
 	color: white;
 	background-color: #3587AC;
 	font-size: 25px;
@@ -86,4 +79,133 @@ body{
 	border-radius: 0px 5px 5px 0px;
 	color: white;
 }
+/*Pour la page de l'inscription joueur creatjoueur!!!*/
+.contenant_cj{
+	height: 95%;
+	background-color: #F3E4D3;
+}
+.sign{
+	height: 5%;
+	text-align: center;
+}
+.inscrire1{
+	height: 85%;
+}
+.avatar1{
+	float: left;
+}
+.avatar1 img{
+	border: 5px solid #3587AC;
+}
+.formulaire1{
+	float: right;
+}
+.formulaire1 label{
+	font-size: 22px;
+}
+input[type='file']{
+	position: relative;
+	opacity: 0;
+	width: 0;
+		 	}
+.bas label{
+text-align: center;
+position: relative;
+font-size: 20px;
+border-radius: 2px;
+}
+.bas1 input{		
+	position: relative;
+}
+/*Pour la page interface joueur ainsi que auelaue partie de la page acceuil les trucs en commun!!!*/
+.contenant_ij{
+	height: 98%;
+	background-color: #F3E4D3;
+}
+.haut1{
+	background-color: #BA6502;
+	height: 15%;
+	text-align: center;
+}
+.milieu_ij{
+	height: 80%;
+}
+.top_score{
+	border: 5px solid #17A2B8;
+}
+.my_score{
+	background-color: #F3E4D3;
+	border: 5px solid #F3E4D3;
+}
+.textarea{
+	height: 20%;
+	text-align: center;
+}
+.point input{
+	width: 15%;
+	position: relative;
+	left: 35%;
+	text-align: center;
+	border: 2px solid grey;
+}
+.reponse{
+	height: 300px;
+}
+.suiv{
+	height: 40px;
+	background-color: #F7EEE7;
+	position: relative;
+	top: 40px;
+}
+/*Pour la page acceuil des admis regoupant toute les trucs en commun de la partie admins */
+.gauche ul{
+	width: 95%;
+}
+.gauche ul li{
+	height: 10%;
+	text-align: center;
+	position: relative;
+	right: 35px;
+	list-style: none;
+}
+.gauche ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+/*Pour la page creer admis*/
+.avatar2 img{
+	border: 3px solid #3587AC;
+}
+.formulaire2 label{
+	font-size: 20px;
+}
+/*Pour la page creer question*/
+.quiz label{
+	font-size: 18px;
+}
+.question textarea{		
+	border-bottom-color: #51BFD0;
+	background-color: #D1D1D1;	
+}
+.nbre{
+	height: 10%;
+}
+.nbre input{
+	background-color: #D1D1D1;
+	border-bottom-color: #51BFD0;	
+}
+.typ{
+	height: 10%;
+}
+.typ select{
+	background-color: whitesmoke;
+	color: #51BFD0;
+}	
+.ajout{
+	height: 35%;
+}
+.save{
+	height: 6%;
+}	
 
